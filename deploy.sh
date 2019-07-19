@@ -4,7 +4,7 @@ set -e
 
 npm run build
 cd .vuepress/dist
-# git init
+git init
 # git pull git@github.com:Anonymity94/navagraha-docs.git master
 git add -A
 git commit -m 'deploy'

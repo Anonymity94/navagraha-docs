@@ -1,20 +1,20 @@
 module.exports = {
+  base: '/navagraha-docs/',
   title: 'Navagraha',
-  // locales: {
-  //   '/': {
-  //     lang: 'zh-CN',
-  //     description: '基于Kerbernetes和Docker实现的一种函数即服务框架。'
-  //   },
-  //   '/en': {
-  //     lang: 'en-US',
-  //     description: '基于Kerbernetes和Docker实现的一种函数即服务框架.'
-  //   }
-  // },
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      description: '基于Kerbernetes和Docker实现的一种函数即服务框架。'
+    }
+  },
   serviceWorker: {},
   themeConfig: {
     repo: 'Gscienty/navagraha',
-    lastUpdated: 'Last Updated',
-    editLinks: false,
+    lastUpdated: '上次更新',
+    // 默认是 false, 设置为 true 来启用
+    // editLinks: true, // 暂时关闭
+    // 默认为 "Edit this page"
+    editLinkText: '在 GitHub 上编辑此页',
     docsDir: 'docs',
     serviceWorker: {
       updatePopup: {
